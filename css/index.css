@@ -60,6 +60,10 @@ html,
     padding: 0px 30px;
 }
 
+#header .nav .depth1>li>a:hover {
+    color: #999;
+}
+
 #header .nav .depth1>li.on>a {
     text-decoration: underline
 }
@@ -124,6 +128,7 @@ html,
 .slide-outer .marrow {
     font-size: 80px;
     color: #fff;
+    opacity: 0.5;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -266,6 +271,10 @@ html,
 .section:nth-child(3),
 .section:nth-child(4) {
     padding-top: 116px;
+}
+
+#portfolio {
+    background: #000;
 }
 
 .portfolio,
@@ -605,6 +614,7 @@ ul.gallery {
 
 .gotop i {
     font-size: 50px;
+    color: #999;
     width: 70px;
     cursor: pointer;
 }
